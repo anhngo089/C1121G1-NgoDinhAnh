@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let canNang=prompt("nhập cân nặng");
+    let chieuCao=prompt("nhập chiều cao");
+    let IBM=canNang/(chieuCao*chieuCao);
+    if (IBM<18.5){
+        alert("thiếu cân");
+    }else if (IBM<25.5){
+        alert("vừa cân");
+    }else if (IBM<35.5){
+        alert("tôt");
+    }else {
+        alert("không tốt");
+    }
+</script>
+
+</body>
+</html>
