@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Title</title>
+</head>
+<body>
+<input id="num1" type="text">;
+<input id="num2" type="text">;
+<button onclick="layThongTin()"> Lấy dữ liệu</button>
+    // let name = prompt("Nhâp tên: "); // nhập dữ liệu từ bàn phím dùng prompt của js
+    //
+    // alert("Tên vừa nhập: " + name ) // hiên thij cùng câu lệnh cuủ js
+
+    // let name = document.getElementById("name").value;
+    // alert(name);
+    //
+    <script>
+    function layThongTin() {
+        let n1 = document.getElementById("num1").value;
+        n1= parseInt(n1);
+        let n2 = document.getElementById("num2").value;
+        n2= parseInt(n2);
+        let sum = n1+n2;
+        alert("tên vừa nhập" + sum);
+    }
+</script>
+</body>
+</html>
